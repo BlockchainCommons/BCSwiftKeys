@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<flyingLogic instance="a3bd780a-af7d-44da-98f3-ac5c34b87805" majorVersion="5" minorVersion="0" uuid="0b6f1a9a-e8a0-4f80-a7fb-0a65a7af845e">
+<flyingLogic instance="07deb126-0bda-437e-9dd7-d2acfdd52012" majorVersion="5" minorVersion="0" uuid="0b6f1a9a-e8a0-4f80-a7fb-0a65a7af845e">
     <domains>
         <domain>
             <attributes>
@@ -77,17 +77,17 @@
     <displaySettings addEntityAsSuccessor="false" annotationToBrowse="false" bias="Bias.start" compactness="1.0" confidenceVisible="false" edgeNotesVisible="false" edgeWeightsVisible="false"
         entityIdVisible="false" noteNumbersVisible="false" orientation="Orientation.leftToRight" projectManagementVisible="false"/>
     <documentInfo author="" comments="" keywords="" title=""/>
-    <canvasSettings canvasMode="graph" horizScroll="0.0" vertScroll="0.0" zoom="0.806"/>
+    <canvasSettings canvasMode="graph" horizScroll="0.0" vertScroll="0.0" zoom="0.625"/>
     <chartSettings classVisible="true" classWidth="90" completionVisible="true" effortVisible="true" finishDateVisible="true" resourceVisible="true" resourceWidth="60" startDateVisible="true" titleWidth="104"/>
     <inspectorSettings visibility="true" width="284">
-        <inspector title="element" visibility="minimized"/>
+        <inspector title="element" visibility="open"/>
+        <inspector height="346" title="domain" visibility="open"/>
+        <inspector title="layout" visibility="open"/>
+        <inspector title="operators" visibility="open"/>
         <inspector title="navigation" visibility="minimized"/>
         <inspector title="document" visibility="minimized"/>
-        <inspector height="346" title="domain" visibility="open"/>
-        <inspector title="operators" visibility="open"/>
         <inspector height="220" title="text" visibility="open"/>
         <inspector height="150" title="userattrs" visibility="minimized"/>
-        <inspector title="layout" visibility="open"/>
     </inspectorSettings>
     <printSettings footerLeft="" footerMiddle="" footerRight="" headerLeft="" headerMiddle="" headerRight="" paperMargins="54.0 54.0 54.0 54.0" paperName="Letter" paperOrientation="portrait"
         paperSize="612.0 792.0 in" saveInk="false" showselhalo="true"/>
@@ -115,6 +115,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="2" inEdgeOrder="3 40 67 71">
@@ -129,6 +132,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -145,6 +151,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="6" inEdgeOrder="7 49" outEdgeOrder="9 11 13">
@@ -159,6 +168,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -190,6 +202,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Enumerated Type" uuid="50af7af4-f70d-4998-bae4-0ec7e109c778"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="12">
@@ -204,6 +219,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="OptionSet" uuid="18d42903-83aa-4aba-9aee-4ef12eb20f2b"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -250,6 +268,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="22" inEdgeOrder="21 95">
@@ -264,6 +285,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -280,6 +304,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="26" inEdgeOrder="31 78" outEdgeOrder="27 41">
@@ -294,6 +321,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -310,6 +340,9 @@
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
                             <attribute class="java.lang.String" key="title">EncryptionPrivateKey</attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="32">
@@ -370,6 +403,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="52">
@@ -399,6 +435,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -430,6 +469,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="60" outEdgeOrder="61 57">
@@ -444,6 +486,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -499,6 +544,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>
@@ -560,6 +608,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="85" inEdgeOrder="86 87">
@@ -575,6 +626,9 @@
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
                             </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
+                            </attribute>
                         </attributes>
                     </vertex>
                     <vertex eid="88" inEdgeOrder="89 92">
@@ -589,6 +643,9 @@
                             </attribute>
                             <attribute class="com.flyinglogic.logicgraph.entityclass.EntityClass" key="entityClass">
                                 <entityClass name="Protocol" uuid="5d77a18e-17b2-4eca-bf51-d721e9b68993"/>
+                            </attribute>
+                            <attribute class="com.arciem.symbol.Symbol" key="symbol">
+                                <symbol generator="com.arciem.symbol.dingbat.DingbatSymbolGenerator" idCode="check.mark"/>
                             </attribute>
                         </attributes>
                     </vertex>

@@ -1,5 +1,6 @@
 import Foundation
 
+/// A key capable of performing decryption.
 public protocol DecryptionKey: Key {
     associatedtype EncryptedMessageType
     

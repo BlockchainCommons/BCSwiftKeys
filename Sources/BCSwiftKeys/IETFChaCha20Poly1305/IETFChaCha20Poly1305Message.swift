@@ -2,9 +2,6 @@ import Foundation
 import WolfBase
 import URKit
 
-public protocol EncryptedMessage {
-}
-
 /// A secure encrypted message.
 ///
 /// Implemented using the IETF ChaCha20-Poly1305 encryption.
