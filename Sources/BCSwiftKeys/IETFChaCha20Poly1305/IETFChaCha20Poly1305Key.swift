@@ -6,7 +6,7 @@ import BCRandom
 /// https://datatracker.ietf.org/doc/html/rfc8439
 public struct IETFChaCha20Poly1305Key: SymmetricKey {
     public static let algorithm: KeyAlgorithm = .ietf_chacha20_poly1305
-    public static var capabilities: KeyCapabilities = [.encrypt, .wrap]
+    public static let capabilities: KeyCapabilities = [.encrypt, .wrap]
 
     public static let keyLength = 32
     public let data: Data // 32 bytes

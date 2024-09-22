@@ -1,7 +1,7 @@
-import XCTest
+import Testing
 @testable import BCKeys
 
-final class BCKeysTests: XCTestCase {
-    func testExample() throws {
+struct BCKeysTests {
+    @Test func example() throws {
     }
 }

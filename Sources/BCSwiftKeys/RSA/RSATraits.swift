@@ -6,11 +6,11 @@ public protocol RSATraits {
 }
 
 public enum RSA2048Traits: RSATraits {
-    public static var algorithm: KeyAlgorithm = .rsa2048
-    public static var capabilities: KeyCapabilities = [.encrypt, .sign, .wrap, .authenticate]
+    public static let algorithm: KeyAlgorithm = .rsa2048
+    public static let capabilities: KeyCapabilities = [.encrypt, .sign, .wrap, .authenticate]
 }
 
 public enum RSA4096Traits: RSATraits {
-    public static var algorithm: KeyAlgorithm = .rsa4096
-    public static var capabilities: KeyCapabilities = [.encrypt, .sign, .wrap, .authenticate]
+    public static let algorithm: KeyAlgorithm = .rsa4096
+    public static let capabilities: KeyCapabilities = [.encrypt, .sign, .wrap, .authenticate]
 }

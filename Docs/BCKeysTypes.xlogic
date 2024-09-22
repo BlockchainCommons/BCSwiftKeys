@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<flyingLogic instance="07deb126-0bda-437e-9dd7-d2acfdd52012" majorVersion="5" minorVersion="0" uuid="0b6f1a9a-e8a0-4f80-a7fb-0a65a7af845e">
+<flyingLogic instance="aa87aa77-efc5-4bed-87ea-7448fb8c557d" majorVersion="5" minorVersion="0" uuid="0b6f1a9a-e8a0-4f80-a7fb-0a65a7af845e">
     <domains>
         <domain>
             <attributes>
@@ -77,17 +77,17 @@
     <displaySettings addEntityAsSuccessor="false" annotationToBrowse="false" bias="Bias.start" compactness="1.0" confidenceVisible="false" edgeNotesVisible="false" edgeWeightsVisible="false"
         entityIdVisible="false" noteNumbersVisible="false" orientation="Orientation.leftToRight" projectManagementVisible="false"/>
     <documentInfo author="" comments="" keywords="" title=""/>
-    <canvasSettings canvasMode="graph" horizScroll="0.0" vertScroll="0.0" zoom="0.625"/>
+    <canvasSettings canvasMode="graph" horizScroll="0.0" vertScroll="0.0" zoom="0.772"/>
     <chartSettings classVisible="true" classWidth="90" completionVisible="true" effortVisible="true" finishDateVisible="true" resourceVisible="true" resourceWidth="60" startDateVisible="true" titleWidth="104"/>
     <inspectorSettings visibility="true" width="284">
-        <inspector title="element" visibility="open"/>
-        <inspector height="346" title="domain" visibility="open"/>
-        <inspector title="layout" visibility="open"/>
-        <inspector title="operators" visibility="open"/>
         <inspector title="navigation" visibility="minimized"/>
-        <inspector title="document" visibility="minimized"/>
         <inspector height="220" title="text" visibility="open"/>
+        <inspector height="334" title="domain" visibility="open"/>
+        <inspector title="operators" visibility="open"/>
+        <inspector title="document" visibility="minimized"/>
         <inspector height="150" title="userattrs" visibility="minimized"/>
+        <inspector title="layout" visibility="open"/>
+        <inspector title="element" visibility="open"/>
     </inspectorSettings>
     <printSettings footerLeft="" footerMiddle="" footerRight="" headerLeft="" headerMiddle="" headerRight="" paperMargins="54.0 54.0 54.0 54.0" paperName="Letter" paperOrientation="portrait"
         paperSize="612.0 792.0 in" saveInk="false" showselhalo="true"/>
@@ -507,7 +507,7 @@
                             </attribute>
                         </attributes>
                     </vertex>
-                    <vertex eid="64" grouped="22 24 58 26 52 4 14 75">
+                    <vertex collapsed="true" eid="64" grouped="22 24 58 26 52 4 14 75">
                         <attributes>
                             <attribute class="java.lang.String" key="title">Public Keys</attribute>
                         </attributes>

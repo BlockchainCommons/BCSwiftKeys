@@ -129,13 +129,14 @@ public extension Tag {
     static let ristretto255Public  = Tag(40519, "ristretto255-public")
 }
 
+@MainActor
 public func addKnownTags() {
     knownTags.forEach {
         globalTags.insert($0)
     }
 }
 
-public var knownTags: [Tag] = [
+public let knownTags: [Tag] = [
     .accountDescriptor,
     .accountV1,
     .address,

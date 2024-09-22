@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 
 import PackageDescription
 
@@ -14,11 +14,11 @@ let package = Package(
             targets: ["BCKeys"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/WolfMcNally/WolfBase", from: "6.0.0"),
-        .package(url: "https://github.com/BlockchainCommons/URKit", from: "14.0.0"),
-        .package(url: "https://github.com/BlockchainCommons/BCSwiftCrypto", from: "4.0.0"),
-        .package(url: "https://github.com/BlockchainCommons/BCSwiftRandom", from: "1.0.0"),
-        .package(url: "https://github.com/BlockchainCommons/BCSwiftTags", from: "0.1.0"),
+        .package(url: "https://github.com/WolfMcNally/WolfBase.git", from: "7.0.0"),
+        .package(url: "https://github.com/BlockchainCommons/URKit.git", from: "15.0.0"),
+        .package(url: "https://github.com/BlockchainCommons/BCSwiftCrypto.git", from: "6.0.0"),
+        .package(url: "https://github.com/BlockchainCommons/BCSwiftRandom.git", from: "2.0.0"),
+        .package(url: "https://github.com/BlockchainCommons/BCSwiftTags.git", from: "0.2.0"),
     ],
     targets: [
         .target(

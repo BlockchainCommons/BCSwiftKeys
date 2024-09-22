@@ -2,7 +2,7 @@ import Foundation
 
 public struct Secp256k1ECDSAPrivateKey: PrivateKey {
     public static let algorithm = Secp256k1ECDSAKey.algorithm
-    public static var capabilities = Secp256k1ECDSAKey.capabilities
+    public static let capabilities = Secp256k1ECDSAKey.capabilities
     public static let type: AsymmetricKeyType = .private
     
     public static let keyLength = 32

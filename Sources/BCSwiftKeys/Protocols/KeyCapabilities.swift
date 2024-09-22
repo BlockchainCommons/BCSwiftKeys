@@ -1,6 +1,6 @@
 import Foundation
 
-public struct KeyCapabilities: OptionSet, Hashable {
+public struct KeyCapabilities: OptionSet, Hashable, Sendable {
     public let rawValue: Int
 
     /// Private keys of this type afford deriving a characteristic public key.

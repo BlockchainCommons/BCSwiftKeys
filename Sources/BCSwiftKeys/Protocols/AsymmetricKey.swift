@@ -1,7 +1,7 @@
 import Foundation
 
 /// The type of an asymmetric key (private or public).
-public enum AsymmetricKeyType {
+public enum AsymmetricKeyType: Sendable {
     case `private`
     case `public`
 }

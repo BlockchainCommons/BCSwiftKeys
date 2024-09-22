@@ -4,7 +4,7 @@ import Foundation
 ///
 /// Each case represents not only the general algorithm, but the major parameter set
 /// used.
-public enum KeyAlgorithm {
+public enum KeyAlgorithm: Sendable {
     // Symmetric
     case ietf_chacha20_poly1305
     case aes128
